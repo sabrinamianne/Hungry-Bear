@@ -18,7 +18,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Day Checker',
+      title: 'Hungry Bear',
       template: './src/index.html',
       inject: 'body'
     })
